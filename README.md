@@ -50,17 +50,44 @@ It allows students to **purchase, enroll, and track courses** while providing tr
 ---
 
 ## 🗂️ Folder Structure
-```.
-    └── static/
-            ├── css
-            │    └── * All css files *
-            ├── js
-            │    └── * ALL JS Files *
-            └── media
-                 ├── images
-                 │    └── * All images * 
-                 └── videos 
-                      └── " All Videos "
+
+```
+# 🧠 Advanced Java Web Project Structure
+
+```bash
+Root Folder (App)/
+├── static/
+│    ├── css/
+│    │    └── * All CSS files *
+│    ├── js/
+│    │    └── * All JS files *
+│    └── media/
+│         ├── images/
+│         │    └── * All images *
+│         └── videos/
+│              └── * All videos *
+├── WEB-INF/
+│    ├── src/
+│    │    ├── controllers/
+│    │    │    └── * Java controller classes *
+│    │    ├── filters/
+│    │    │    └── * Java filter classes *
+│    │    ├── models/
+│    │    │    └── * Java model classes *
+│    │    ├── utils/
+│    │    │    └── * Java utility classes *
+│    │    └── listeners/
+│    │         └── * Java listener classes *
+│    ├── lib/
+│    │    └── * All required JAR libraries *
+│    ├── pages/
+│    │    └── * All JSP files *
+│    └── uploads/
+│         └── * User-specific folders (named by email) containing user data *
+├── queries.db
+│    └── * SQLite database file for creating tables and sample data *
+└── readme-image/
+     └── * All images used in README files *
 
 ```
 
