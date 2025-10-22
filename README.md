@@ -51,22 +51,17 @@ It allows students to **purchase, enroll, and track courses** while providing tr
 
 ## 🗂️ Folder Structure
 ```.
-└── Edit me to generate/
-    ├── a/
-    │   └── nice/
-    │       └── tree/
-    │           ├── diagram!
-    │           └── :)
-    └── Use indentation/
-        ├── to indicate/
-        │   ├── file
-        │   ├── and
-        │   ├── folder
-        │   └── nesting.
-        └── You can even/
-            └── use/
-                ├── markdown
-                └── bullets!
+    └── static/
+            ├── css
+            │    └── * All css files *
+            ├── js
+            │    └── * ALL JS Files *
+            └── media
+                 ├── images
+                 │    └── * All images * 
+                 └── videos 
+                      └── " All Videos "
+
 ```
 
 ---
