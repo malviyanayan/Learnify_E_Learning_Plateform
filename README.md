@@ -52,9 +52,6 @@ It allows students to **purchase, enroll, and track courses** while providing tr
 ## 🗂️ Folder Structure
 
 ```
-# 🧠 Advanced Java Web Project Structure
-
-```bash
 Root Folder (App)/
 ├── static/
 │    ├── css/
