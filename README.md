@@ -137,14 +137,14 @@ mysql> source path/to/queries.db;
 ```java
 private static final String USER = "your_mysql_username";
 private static final String PASSWORD = "your_mysql_password";
-
+```
 
 6. **Compile Java Code**
    - Open the `WEB-INF/src` directory in your command line and run the following command to compile all Java files:
 ```bash
 cd WEB-INF/src
 javac -cp ".;../lib/*" -d ../classes controllers/*.java models/*.java utils/*.java listeners/*.java
-
+```
 
 7. **Run the Application**
    - Start your Tomcat server:
@@ -152,11 +152,11 @@ javac -cp ".;../lib/*" -d ../classes controllers/*.java models/*.java utils/*.ja
 cd /path/to/tomcat/bin
 startup.bat    # For Windows
 ./startup.sh   # For Linux/Mac
-
+```
 
 8. **Access the Application Dashboard**
    - Once the server is running, go to your browser and open:
 ```text
 http://localhost:8080/Learnify_E_Learning_Plateform
-
+```
 ````
