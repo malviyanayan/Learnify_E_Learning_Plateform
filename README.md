@@ -139,14 +139,23 @@ private static final String USER = "your_mysql_username";
 private static final String PASSWORD = "your_mysql_password";
 ```
 
-6. **Compile Java Code**
+6. **(Optional) Configure Email Sending Feature**  
+   - To enable email sending (for OTPs, notifications, etc.), open:  
+```text
+WEB-INF/src/models/Database.java
+Update your sender email address and the 12-character app password (generated from your email provider).
+
+Example (Gmail users): create an App Password and paste it into the code.
+```
+
+7. **Compile Java Code**
    - Open the `WEB-INF/src` directory in your command line and run the following command to compile all Java files:
 ```bash
 cd WEB-INF/src
 javac -cp ".;../lib/*" -d ../classes controllers/*.java models/*.java utils/*.java listeners/*.java
 ```
 
-7. **Run the Application**
+8. **Run the Application**
    - Start your Tomcat server:
 ```bash
 cd /path/to/tomcat/bin
@@ -154,7 +163,7 @@ startup.bat    # For Windows
 ./startup.sh   # For Linux/Mac
 ```
 
-8. **Access the Application Dashboard**
+9. **Access the Application Dashboard**
    - Once the server is running, go to your browser and open:
 ```text
 http://localhost:8080/Learnify_E_Learning_Plateform
