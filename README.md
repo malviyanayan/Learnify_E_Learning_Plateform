@@ -36,12 +36,12 @@ It allows students to **purchase, enroll, and track courses** while providing tr
 
 ## 🛠️ Tech Stack
 
-| Layer      | Technology                                     |
-| ---------- | ---------------------------------------------- |
-| Backend    | Java, JSP, Servlets, JDBC, MySQL  , EL, JSTL             |
-| Frontend   | HTML, CSS, JavaScript, AJAX, Bootstrap |
-| Build Tool | Advanced Java Folder Structure                                         |
-| Deployment |  Render                    |
+| Layer      | Technology                                  |
+| ---------- | ------------------------------------------- |
+| Backend    | Java, JSP, Servlets, JDBC, MySQL , EL, JSTL |
+| Frontend   | HTML, CSS, JavaScript, AJAX, Bootstrap      |
+| Build Tool | Advanced Java Folder Structure              |
+| Deployment | Render                                      |
 
 ---
 
@@ -86,9 +86,8 @@ Root Folder (App)/
 
 ---
 
-
-
 ## 💾 User Data Storage
+
 After registration, each user gets a dedicated folder under `APPLICATION_USERS`.  
 This folder stores all important user-specific data:
 
@@ -100,10 +99,64 @@ This folder stores all important user-specific data:
 
 ---
 
-## ⚙️ Installation
+# ⚙️ How To Run
 
-1. **Clone the repository:**
+## Steps to Run This Application
+
+1. **Install Apache Tomcat Server**
+   - Download and install **Apache Tomcat** (preferably version 9 or above).
+   - Set up the Tomcat environment variables (`CATALINA_HOME` and `JAVA_HOME`) properly.
+
+---
+
+2. **Clone the GitHub Repository**
 
 ```bash
-git clone https://github.com/your-username/learnify_full_stack_application.git
+git clone https://github.com/malviyanayan/Learnify_E_Learning_Plateform.git
 ```
+
+3. **Move the Project Folder to Tomcat Webapps Directory**
+
+```bash
+move Learnify_E_Learning_Plateform "C:\apache-tomcat-9.0.85\webapps\"
+This places your project inside the Tomcat webapps folder so it can be deployed automatically when the server starts.
+```
+
+4. **Setup Database**
+   - Open the `queries.db` file in any text editor.
+   - Copy all the SQL queries and run them in your MySQL command line to create the required database and tables.
+
+````bash
+mysql -u root -p
+mysql> source path/to/queries.db;
+
+
+5. **Configure Database Connection**
+   - Go to `WEB-INF/src/utils/Database.java`.
+   - Update your MySQL username and password in the connection code.
+```java
+private static final String USER = "your_mysql_username";
+private static final String PASSWORD = "your_mysql_password";
+
+
+6. **Compile Java Code**
+   - Open the `WEB-INF/src` directory in your command line and run the following command to compile all Java files:
+```bash
+cd WEB-INF/src
+javac -cp ".;../lib/*" -d ../classes controllers/*.java models/*.java utils/*.java listeners/*.java
+
+
+7. **Run the Application**
+   - Start your Tomcat server:
+```bash
+cd /path/to/tomcat/bin
+startup.bat    # For Windows
+./startup.sh   # For Linux/Mac
+
+
+8. **Access the Application Dashboard**
+   - Once the server is running, go to your browser and open:
+```text
+http://localhost:8080/Learnify_E_Learning_Plateform
+
+````
