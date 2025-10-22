@@ -129,7 +129,7 @@ This places your project inside the Tomcat webapps folder so it can be deployed 
 ````bash
 mysql -u root -p
 mysql> source path/to/queries.db;
-
+````
 
 5. **Configure Database Connection**
    - Go to `WEB-INF/src/utils/Database.java`.
@@ -159,4 +159,3 @@ startup.bat    # For Windows
 ```text
 http://localhost:8080/Learnify_E_Learning_Plateform
 ```
-````
