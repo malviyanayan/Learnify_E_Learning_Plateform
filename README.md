@@ -50,21 +50,22 @@ It allows students to **purchase, enroll, and track courses** while providing tr
 ---
 
 ## 🗂️ Folder Structure
-
-learnify_full_stack_application/
-│
-├─ backend/
-│ ├─ src/main/java/...
-│ ├─ src/main/resources/
-│ ├─ pom.xml
-│
-├─ frontend/
-│ ├─ public/
-│ ├─ src/
-│ ├─ package.json
-│
-├─ readme_images/ # Logo or screenshots
-├─ README.md
+Edit me to generate
+  a
+    nice
+      tree
+        diagram!
+        :)
+  Use indentation
+    to indicate
+      file
+      and
+      folder
+      nesting.
+    - You can even
+      - use
+        - markdown
+        - bullets!
 
 ---
 
