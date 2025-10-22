@@ -42,10 +42,10 @@ It allows students to **purchase, enroll, and track courses** while providing tr
 
 | Layer      | Technology                                     |
 | ---------- | ---------------------------------------------- |
-| Backend    | Java, JSP, Servlets, JDBC, MySQL               |
-| Frontend   | HTML, CSS, JavaScript, React/Angular(optional) |
-| Build Tool | Maven                                          |
-| Deployment | Docker, Heroku, AWS, Render                    |
+| Backend    | Java, JSP, Servlets, JDBC, MySQL  , EL, JSTL             |
+| Frontend   | HTML, CSS, JavaScript, AJAZ |
+| Build Tool | Advanced Java Structure                                         |
+| Deployment |  Render                    |
 
 ---
 
@@ -90,8 +90,9 @@ Root Folder (App)/
 
 ---
 
-## 💾 User Data Storage
 
+
+## 💾 User Data Storage
 After registration, each user gets a dedicated folder under `APPLICATION_USERS`.  
 This folder stores all important user-specific data:
 
