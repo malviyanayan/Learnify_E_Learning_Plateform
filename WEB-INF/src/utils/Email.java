@@ -12,6 +12,9 @@ import javax.mail.internet.MimeMessage;
 
 public class Email {
 
+    private String EMAIL = "YOUR EMAIL";
+    private String EMAIL_CODE = "EMAIL_CODE";
+
     public String forgetPasswordEmail(String name, String email){
         String code = Utility.generateVerificationCode();
         String htmlString = "<div style=\"font-family: Arial, sans-serif;background-color: #f4f4f4;margin: 0;padding: 0;\">" +
@@ -41,14 +44,14 @@ public class Email {
 
         Session session = Session.getInstance(props, new Authenticator() {
             public PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication("bytestream0101@gmail.com", "drjhbouxyvddxrho");
+                return new PasswordAuthentication(EMAIL, EMAIL_CODE);
             }
         });
 
         MimeMessage msg = new MimeMessage(session);
 
         try {
-            msg.setFrom("bytestream0101@gmail.com");
+            msg.setFrom(EMAIL);
 
             msg.setRecipients(Message.RecipientType.TO, email);
             msg.setSubject("Password Reset");
@@ -93,14 +96,14 @@ public class Email {
 
         Session session = Session.getInstance(props, new Authenticator() {
             public PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication("bytestream0101@gmail.com", "drjhbouxyvddxrho");
+                return new PasswordAuthentication(EMAIL, EMAIL_CODE);
             }
         });
 
         MimeMessage msg = new MimeMessage(session);
 
         try {
-            msg.setFrom("bytestream0101@gmail.com");
+            msg.setFrom(EMAIL);
 
             msg.setRecipients(Message.RecipientType.TO, email);
             msg.setSubject("Email Verification");

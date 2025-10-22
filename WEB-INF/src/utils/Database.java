@@ -6,7 +6,7 @@ import java.sql.DriverManager;
 public class Database {
     public static final String URL = "jdbc:mysql://localhost:3306/elpdb";
     private static final String user = "root";
-    private static final String password = "1234";
+    private static final String password = "DATABASE_PASSWORD";
 
     public static Connection getConnection() {
         Connection con = null;
