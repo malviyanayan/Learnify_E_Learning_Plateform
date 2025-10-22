@@ -50,7 +50,7 @@ It allows students to **purchase, enroll, and track courses** while providing tr
 ---
 
 ## 🗂️ Folder Structure
-.
+```.
 └── Edit me to generate/
     ├── a/
     │   └── nice/
@@ -67,6 +67,8 @@ It allows students to **purchase, enroll, and track courses** while providing tr
             └── use/
                 ├── markdown
                 └── bullets!
+```
+
 ---
 
 ## 💾 User Data Storage
