@@ -1,12 +1,8 @@
 <div align="center">
 
-# ![Logo](./readme_images/logo.png "Learnify Logo") LEARNIFY
+# LEARNIFY
 
 **Full Stack Web Application**
-
-[![GitHub license](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Issues](https://img.shields.io/github/issues/your-username/learnify_full_stack_application)](https://github.com/your-username/learnify_full_stack_application/issues)
-[![Forks](https://img.shields.io/github/forks/your-username/learnify_full_stack_application)](https://github.com/your-username/learnify_full_stack_application/network)
 
 </div>
 
@@ -43,8 +39,8 @@ It allows students to **purchase, enroll, and track courses** while providing tr
 | Layer      | Technology                                     |
 | ---------- | ---------------------------------------------- |
 | Backend    | Java, JSP, Servlets, JDBC, MySQL  , EL, JSTL             |
-| Frontend   | HTML, CSS, JavaScript, AJAZ |
-| Build Tool | Advanced Java Structure                                         |
+| Frontend   | HTML, CSS, JavaScript, AJAX, Bootstrap |
+| Build Tool | Advanced Java Folder Structure                                         |
 | Deployment |  Render                    |
 
 ---
