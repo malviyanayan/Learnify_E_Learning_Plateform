@@ -50,23 +50,23 @@ It allows students to **purchase, enroll, and track courses** while providing tr
 ---
 
 ## 🗂️ Folder Structure
-Edit me to generate
-  a
-    nice
-      tree
-        diagram!
-        :)
-  Use indentation
-    to indicate
-      file
-      and
-      folder
-      nesting.
-    - You can even
-      - use
-        - markdown
-        - bullets!
-
+.
+└── Edit me to generate/
+    ├── a/
+    │   └── nice/
+    │       └── tree/
+    │           ├── diagram!
+    │           └── :)
+    └── Use indentation/
+        ├── to indicate/
+        │   ├── file
+        │   ├── and
+        │   ├── folder
+        │   └── nesting.
+        └── You can even/
+            └── use/
+                ├── markdown
+                └── bullets!
 ---
 
 ## 💾 User Data Storage
