@@ -1,4 +1,5 @@
-"# Learnify_E_Learning_Plateform" 
+<div align="center">
+# ![Logo](./readme_images/logo.png "Learnify Logo")LEARNIFY
 
-
-# This is my First Full Stack Web Application
+** Full Stack Web Application **
+</div>
