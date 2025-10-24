@@ -47,7 +47,7 @@ Here are some screenshots of the website:
 | ![Course Preview](readme_images/image9.png) | Course Preview (with Purchase Button) |
 | ![Profile Section](readme_images/image10.png) | Profile Section |
 | ![Trainer Section](readme_images/image11.png) | Trainer Section (Upload & Sell Courses) |
-| ![View Trainer Courses](readme_images/course12.png) | View Trainer Courses (Edit) |
+| ![View Trainer Courses](readme_images/image12.png) | View Trainer Courses (Edit) |
 
 
 ---
