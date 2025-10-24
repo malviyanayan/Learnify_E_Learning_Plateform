@@ -144,10 +144,10 @@ This places your project inside the Tomcat webapps folder so it can be deployed 
    - Open the `queries.db` file in any text editor.
    - Copy all the SQL queries and run them in your MySQL command line to create the required database and tables.
 
-````bash
+<!-- ````bash
 mysql -u root -p
 mysql> source path/to/queries.db;
-````
+```` -->
 
 5. **Configure Database Connection**
    - Go to `WEB-INF/src/utils/Database.java`.
@@ -158,9 +158,11 @@ private static final String PASSWORD = "your_mysql_password";
 ```
 
 6. **(Optional) Configure Email Sending Feature**  
-   - To enable email sending (for OTPs, notifications, etc.), open:  
+   - To enable email sending (for OTPs, notifications, etc.). 
+   - You can Edit this According to your need. 
+
 ```text
-WEB-INF/src/models/Database.java
+WEB-INF/src/utils/Email.java
 Update your sender email address and the 12-character app password (generated from your email provider).
 
 Example (Gmail users): create an App Password and paste it into the code.
@@ -169,7 +171,6 @@ Example (Gmail users): create an App Password and paste it into the code.
 7. **Compile Java Code**
    - Open the `WEB-INF/src` directory in your command line and run the following command to compile all Java files:
 ```bash
-cd WEB-INF/src
 javac -cp ".;../lib/*" -d ../classes controllers/*.java models/*.java utils/*.java listeners/*.java
 ```
 

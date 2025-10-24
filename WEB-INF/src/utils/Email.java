@@ -12,8 +12,8 @@ import javax.mail.internet.MimeMessage;
 
 public class Email {
 
-    private String EMAIL = "YOUR EMAIL";
-    private String EMAIL_CODE = "EMAIL_CODE";
+    private static final String EMAIL = "YOUR EMAIL";
+    private static final String EMAIL_CODE = "EMAIL_CODE";
 
     public String forgetPasswordEmail(String name, String email){
         String code = Utility.generateVerificationCode();
