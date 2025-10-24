@@ -34,6 +34,24 @@ It allows students to **purchase, enroll, and track courses** while providing tr
 
 ---
 
+## 📸 Screenshots
+
+Here are some screenshots of the website:
+
+| Screenshot | Description |
+|------------|-------------|
+| ![Home Page](readme-images/image5.png) | Home Page |
+| ![Sign In & Register](readme-images/image6.png) | Sign In & Register |
+| ![Courses Section](readme-images/image7.png) | Courses Section |
+| ![Course Details](readme-images/image8.png) | Particular Course (for Purchase) |
+| ![Course Preview](readme-images/image9.png) | Course Preview (with Purchase Button) |
+| ![Profile Section](readme-images/image10.png) | Profile Section |
+| ![Trainer Section](readme-images/image11.png) | Trainer Section (Upload & Sell Courses) |
+| ![View Trainer Courses](readme-images/course12.png) | View Trainer Courses (Edit) |
+
+
+---
+
 ## 🛠️ Tech Stack
 
 | Layer      | Technology                                  |
@@ -86,7 +104,7 @@ Root Folder (App)/
 
 ---
 
-## 💾 User Data Storage
+<!-- ## 💾 User Data Storage
 
 After registration, each user gets a dedicated folder under `APPLICATION_USERS`.  
 This folder stores all important user-specific data:
@@ -95,7 +113,7 @@ This folder stores all important user-specific data:
 - Profile images
 - Other content
 
-> Each folder is named after the username for organized and secure storage.
+> Each folder is named after the username for organized and secure storage. -->
 
 ---
 
