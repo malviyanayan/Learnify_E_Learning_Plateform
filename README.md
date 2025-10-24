@@ -40,14 +40,14 @@ Here are some screenshots of the website:
 
 | Screenshot | Description |
 |------------|-------------|
-| ![Home Page](readme-images/image5.png) | Home Page |
-| ![Sign In & Register](readme-images/image6.png) | Sign In & Register |
-| ![Courses Section](readme-images/image7.png) | Courses Section |
-| ![Course Details](readme-images/image8.png) | Particular Course (for Purchase) |
-| ![Course Preview](readme-images/image9.png) | Course Preview (with Purchase Button) |
-| ![Profile Section](readme-images/image10.png) | Profile Section |
-| ![Trainer Section](readme-images/image11.png) | Trainer Section (Upload & Sell Courses) |
-| ![View Trainer Courses](readme-images/course12.png) | View Trainer Courses (Edit) |
+| ![Home Page](readme_images/image5.png) | Home Page |
+| ![Sign In & Register](readme_images/image6.png) | Sign In & Register |
+| ![Courses Section](readme_images/image7.png) | Courses Section |
+| ![Course Details](readme_images/image8.png) | Particular Course (for Purchase) |
+| ![Course Preview](readme_images/image9.png) | Course Preview (with Purchase Button) |
+| ![Profile Section](readme_images/image10.png) | Profile Section |
+| ![Trainer Section](readme_images/image11.png) | Trainer Section (Upload & Sell Courses) |
+| ![View Trainer Courses](readme_images/course12.png) | View Trainer Courses (Edit) |
 
 
 ---
