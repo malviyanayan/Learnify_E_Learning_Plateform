@@ -1,14 +1,37 @@
 <div align="center">
+  <h1>LEARNIFY</h1>
+  <strong>Full Stack Web Application</strong>
 
-# LEARNIFY
+  <!-- YouTube playlist link -->
+  <p style="margin-top:12px;">
+    <a
+      href="https://youtube.com/playlist?list=PLiNFN8vks66rgDw0SLXS0M8YJyzZRDqY3&si=mopv9eEN3b9csSvy"
+      target="_blank"
+      rel="noopener noreferrer"
+      style="display:inline-block; margin-top:8px; padding:8px 14px; border-radius:6px; text-decoration:none; border:1px solid #333;"
+    >
+      Watch the Learnify playlist on YouTube
+    </a>
+  </p>
 
-**Full Stack Web Application**
-
+  <!-- Embedded YouTube playlist (optional) -->
+  <div style="margin-top:14px; max-width:720px; width:100%;">
+    <iframe
+      width="100%"
+      height="360"
+      src="https://www.youtube.com/embed/videoseries?list=PLiNFN8vks66rgDw0SLXS0M8YJyzZRDqY3"
+      title="Learnify Playlist"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+  </div>
 </div>
+
 
 ---
 
-## 📌 About the Project
+##  About the Project
 
 Learnify is a **full-stack Java web application** for online learning.  
 It allows students to **purchase, enroll, and track courses** while providing trainers with **dashboards to manage content efficiently**.
@@ -22,7 +45,7 @@ It allows students to **purchase, enroll, and track courses** while providing tr
 
 ---
 
-## 🚀 Features
+##  Features
 
 - User registration & authentication
 - Role-based access (Admin / Instructor / Student)
@@ -34,7 +57,7 @@ It allows students to **purchase, enroll, and track courses** while providing tr
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 Here are some screenshots of the website:
 
@@ -52,7 +75,7 @@ Here are some screenshots of the website:
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer      | Technology                                  |
 | ---------- | ------------------------------------------- |
@@ -63,7 +86,7 @@ Here are some screenshots of the website:
 
 ---
 
-## 🗂️ Folder Structure
+##  Folder Structure
 
 ```
 Root Folder (App)/
@@ -104,7 +127,7 @@ Root Folder (App)/
 
 ---
 
-<!-- ## 💾 User Data Storage
+<!-- ##  User Data Storage
 
 After registration, each user gets a dedicated folder under `APPLICATION_USERS`.  
 This folder stores all important user-specific data:
@@ -117,7 +140,7 @@ This folder stores all important user-specific data:
 
 ---
 
-# ⚙️ How To Run
+#  How To Run
 
 ## Steps to Run This Application
 
