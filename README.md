@@ -14,18 +14,6 @@
     </a>
   </p>
 
-  <!-- Embedded YouTube playlist (optional) -->
-  <div style="margin-top:14px; max-width:720px; width:100%;">
-    <iframe
-      width="100%"
-      height="360"
-      src="https://www.youtube.com/embed/videoseries?list=PLiNFN8vks66rgDw0SLXS0M8YJyzZRDqY3"
-      title="Learnify Playlist"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen
-    ></iframe>
-  </div>
 </div>
 
 
